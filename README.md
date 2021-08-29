@@ -5,7 +5,7 @@
 ## Introduction
 This is a code repository for the corresponding video tutorial. 
 
-In this video, we will create a full Realtime Chat Application. We're going to use React on the front end, NodeJS on the back end and the entire chat is powered with GetStream.io. 
+In this video, we will create a full Realtime Chat Application. We're going to use React on the front end, NodeJS on the back end and the entire chat is powered with https://GetStream.io. 
 
 By the end of this video, you will be able to build any real-time chat application you can think of.
 
