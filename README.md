@@ -1,6 +1,7 @@
 # Medical Pager Chat App
 
 ![Chat Application](https://i.ibb.co/hsvcw4V/image.png)
+![image](https://user-images.githubusercontent.com/24898559/132945685-f7892145-f2f7-4f67-8328-7f36c8749bd0.png)
 
 ## Introduction
 This is a code repository for the corresponding video tutorial. 
