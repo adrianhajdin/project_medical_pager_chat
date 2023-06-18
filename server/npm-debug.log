@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.3.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'yarn' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData yarn
+8 silly fetchNamedPackageData yarn
+9 silly mapToRegistry name yarn
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'yarn',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'yarn',
+12 silly mapToRegistry   name: 'yarn',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/yarn
+14 verbose request uri https://registry.npmjs.org/yarn
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 20:08:44
+17 verbose request id e98e7e95851be8ce
+18 verbose etag W/"6220a698bb10758d44c2fdb83b861a7d"
+19 verbose lastModified Mon, 12 Jun 2023 09:51:07 GMT
+20 http request GET https://registry.npmjs.org/yarn
+21 http 304 https://registry.npmjs.org/yarn
+22 verbose headers { date: 'Sun, 18 Jun 2023 17:08:44 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '7d9522d46dc5247c-KBP',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   age: '24',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"6220a698bb10758d44c2fdb83b861a7d"',
+22 verbose headers   'last-modified': 'Mon, 12 Jun 2023 09:51:07 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'x-amz-replication-status': 'FAILED',
+22 verbose headers   'x-amz-server-side-encryption': 'AES256',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Sun, 18 Jun 2023 17:08:44 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '7d9522d46dc5247c-KBP',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     age: '24',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"6220a698bb10758d44c2fdb83b861a7d"',
+23 silly get     'last-modified': 'Mon, 12 Jun 2023 09:51:07 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'x-amz-replication-status': 'FAILED',
+23 silly get     'x-amz-server-side-encryption': 'AES256',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/yarn from cache
+25 verbose get saving yarn to /Users/danyl/.npm/registry.npmjs.org/yarn/.cache.json
+26 verbose correctMkdir /Users/danyl/.npm correctMkdir not in flight; initializing
+27 silly install normalizeTree
+28 silly loadCurrentTree Finishing
+29 silly loadIdealTree Starting
+30 silly install loadIdealTree
+31 silly cloneCurrentTree Starting
+32 silly install cloneCurrentTreeToIdealTree
+33 silly cloneCurrentTree Finishing
+34 silly loadShrinkwrap Starting
+35 silly install loadShrinkwrap
+36 silly loadShrinkwrap Finishing
+37 silly loadAllDepsIntoIdealTree Starting
+38 silly install loadAllDepsIntoIdealTree
+39 silly resolveWithNewModule yarn@1.22.19 checking installable status
+40 silly cache add args [ 'yarn', null ]
+41 verbose cache add spec yarn
+42 silly cache add parsed spec Result {
+42 silly cache add   raw: 'yarn',
+42 silly cache add   scope: null,
+42 silly cache add   escapedName: 'yarn',
+42 silly cache add   name: 'yarn',
+42 silly cache add   rawSpec: '',
+42 silly cache add   spec: 'latest',
+42 silly cache add   type: 'tag' }
+43 silly addNamed yarn@latest
+44 verbose addNamed "latest" is being treated as a dist-tag for yarn
+45 info addNameTag [ 'yarn', 'latest' ]
+46 silly mapToRegistry name yarn
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'yarn',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'yarn',
+49 silly mapToRegistry   name: 'yarn',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/yarn
+51 verbose addNameTag registry:https://registry.npmjs.org/yarn not in flight; fetching
+52 verbose get https://registry.npmjs.org/yarn not expired, no request
+53 silly addNameTag next cb for yarn with tag latest
+54 silly addNamed yarn@1.22.19
+55 verbose addNamed "1.22.19" is a plain semver version for yarn
+56 silly cache afterAdd yarn@1.22.19
+57 verbose afterAdd /Users/danyl/.npm/yarn/1.22.19/package/package.json not in flight; writing
+58 verbose correctMkdir /Users/danyl/.npm correctMkdir not in flight; initializing
+59 verbose afterAdd /Users/danyl/.npm/yarn/1.22.19/package/package.json written
+60 silly loadAllDepsIntoIdealTree Finishing
+61 silly loadIdealTree Finishing
+62 silly currentTree lib
+63 silly idealTree lib
+63 silly idealTree └── yarn@1.22.19
+64 silly generateActionsToTake Starting
+65 silly install generateActionsToTake
+66 warn checkPermissions Missing write access to /usr/local/lib/node_modules
+67 silly rollbackFailedOptional Starting
+68 silly rollbackFailedOptional Finishing
+69 silly runTopLevelLifecycles Starting
+70 silly runTopLevelLifecycles Finishing
+71 silly install printInstalled
+72 verbose stack Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+72 verbose stack     at Error (native)
+73 verbose cwd /Users/danyl/git-rep/tavern-chat/server
+74 error Darwin 20.6.0
+75 error argv "/usr/local/Cellar/node/6.3.0/bin/node" "/usr/local/bin/npm" "install" "-g" "yarn"
+76 error node v6.3.0
+77 error npm  v3.10.3
+78 error path /usr/local/lib/node_modules
+79 error code EACCES
+80 error errno -13
+81 error syscall access
+82 error Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+82 error     at Error (native)
+82 error  { Error: EACCES: permission denied, access '/usr/local/lib/node_modules'
+82 error     at Error (native)
+82 error   errno: -13,
+82 error   code: 'EACCES',
+82 error   syscall: 'access',
+82 error   path: '/usr/local/lib/node_modules' }
+83 error Please try running this command again as root/Administrator.
+84 verbose exit [ -13, true ]
